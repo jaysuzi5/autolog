@@ -1,0 +1,22 @@
+### Update an existing Vehicle
+PUT http://localhost:4000/vehicles/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "year": "1998",
+  "make": "Ford",
+  "model": "Bronco II",
+  "color": "Blue",
+  "vin": "xyz",
+  "plate": "wzyz",
+  "registration": "wsdfldf",
+  "registrationState": "CA",
+  "purchaseDate": "1991-07-28",
+  "purchasePrice": "7200.00",
+  "purchaseOdometer": "58489",
+  "dealerName": "Hirtal Ford",
+  "soldDate": "1992-11-20",
+  "soldPrice": "1000.00",
+  "soldOdometer": "87291"
+}
+###

@@ -1,0 +1,22 @@
+### Create a new Vehicle
+POST http://localhost:4000/vehicles
+Content-Type: application/json
+
+{
+  "year": "1996",
+  "make": "Ford",
+  "model": "Thunderbird",
+  "color": "White",
+  "vin": "sdfsdf3e",
+  "plate": "sdfs3wer",
+  "registration": "sdf3rasdfsdf",
+  "registrationState": "NJ",
+  "purchaseDate": "1997-04-05",
+  "purchasePrice": "16000.00",
+  "purchaseOdometer": "13414",
+  "dealerName": "Ace Ford",
+  "soldDate": "2001-10-13",
+  "soldPrice": "1500.00",
+  "soldOdometer": "126456"
+}
+###

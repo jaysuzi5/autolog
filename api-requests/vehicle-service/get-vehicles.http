@@ -1,0 +1,4 @@
+### Retrieve all vehicles
+GET http://localhost:4004/api/vehicles
+
+###
